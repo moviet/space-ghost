@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fineclouds.spaceghostq1.dual.view.MaskedLayout android:orientation="vertical" android:id="@id/root_view" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:drawableTop="@drawable/loading_icon" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="128.0dip">
+        <fr.castorflex.android.smoothprogressbar.SmoothProgressBar android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" app:spb_stroke_width="4.0dip" app:spb_stroke_separator_length="4.0dip" app:spb_sections_count="4" app:spb_speed="2.0" app:spb_progressiveStart_speed="1.5" app:spb_progressiveStop_speed="3.4" app:spb_reversed="false" app:spb_mirror_mode="false" app:spb_colors="@array/progress_colors" app:spb_progressiveStart_activated="true" />
+        <ImageView android:id="@id/app_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="64.0dip" android:layout_centerVertical="true" />
+        <TextView android:id="@id/app_name" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/preparing" android:layout_toRightOf="@id/app_icon" android:layout_alignTop="@id/app_icon" />
+        <TextView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/preparing" android:layout_toRightOf="@id/app_icon" android:layout_alignBottom="@id/app_icon" />
+    </RelativeLayout>
+</com.fineclouds.spaceghostq1.dual.view.MaskedLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/top_divider" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="ShortCut" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:background="@android:color/darker_gray" android:layout_width="0.5dip" android:layout_height="50.0dip" />
+    <TextView android:gravity="center" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="Delete" android:layout_weight="1.0" />
+</LinearLayout>

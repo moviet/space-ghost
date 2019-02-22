@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/title_size" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="@dimen/title_button_margin" android:drawableStart="@drawable/ic_base_back" />
+    <TextView android:textSize="@dimen/title_size" android:textColor="@android:color/white" android:ellipsize="end" android:layout_gravity="end|center" android:id="@id/top_bar_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingEnd="@dimen/title_button_margin" />
+</android.support.v7.widget.Toolbar>

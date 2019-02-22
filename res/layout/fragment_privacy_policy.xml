@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_bar" layout="@layout/base_top_bar" />
+    <RelativeLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:id="@id/webview_privacy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <android.support.v7.widget.AppCompatButton android:textSize="17.0sp" android:textColor="@color/fineos_item_default_text" android:id="@id/btn_privacy_retry" android:background="@null" android:paddingBottom="28.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/click_to_retry" android:drawableTop="@drawable/selector_retry_button" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

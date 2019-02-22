@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fineclouds.spaceghostq1.common.view.AnimTextView android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/splash_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/app_name" android:layout_below="@id/splash_imageView" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/splash_imageView" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="162.0dip" android:layout_alignParentTop="true" android:layout_marginEnd="10.0dip" android:layout_alignEnd="@id/splash_textView" app:srcCompat="@drawable/splash_icon" />
+</RelativeLayout>

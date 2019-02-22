@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_base_share" android:id="@id/nav_share" android:title="@string/drawer_menu_share" />
+        <item android:icon="@drawable/ic_menu_feedback" android:id="@id/nav_feedback" android:title="@string/drawer_menu_feedback" />
+        <item android:icon="@drawable/ic_menu_comment" android:id="@id/nav_comment" android:title="@string/drawer_menu_comment" />
+        <item android:icon="@drawable/ic_menu_about" android:id="@id/nav_about" android:title="@string/drawer_menu_about" />
+        <item android:icon="@drawable/ic_menu_help" android:id="@id/nav_help" android:title="@string/drawer_menu_help" />
+    </group>
+</menu>
